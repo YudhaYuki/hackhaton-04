@@ -1,4 +1,6 @@
 @extends('wrapper')
+
+
 @section('content')
 
 <div class="container">
@@ -12,7 +14,7 @@
 {{ csrf_field() }}
 
 <div class="form-group col-md-4">
-<label for="inputState">Choose the city</label>
+<label for="inputState">Choose a city</label>
 <select id="inputState" class="form-control">
 <option selected>Choose...</option>
 <option>London</option>

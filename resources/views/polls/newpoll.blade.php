@@ -12,12 +12,12 @@
 
     <div class="form-group">
         <label for="poll_name_input">Poll Name</label><br>
-        <input class="form-control" type="text" name="name" value="{{ $poll->name }}" id="title_input">
+        <input class="form-control" type="text" name="name" value="{{ $poll->name }}" id="name_input">
     </div>
 
     <div class="form-group">
         <label for="poll_desc_input">Description</label><br>
-        <input class="form-control" type="text" name="description" value="{{ $poll->description }}" id="year_input">
+        <input class="form-control" type="text" name="description" value="{{ $poll->description }}" id="description">
     </div>
 
     <!-- <div class="form-group">

@@ -8,6 +8,7 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <link rel = "stylesheet" href="css/style.css">
   </head>
   <body>
 
@@ -32,6 +33,15 @@
     </form>
   </div>
 </nav>
+
+<!-- <div class="showcase">
+        <div class="container">
+            <h1 class="text-center text-md-left">VOTE HERE</h1>
+            <p class="lead text-center text-md-left">Welcome to THE POLL. Choose your poll and vote.</p>
+            <a href="#review" class="btn btn-primary text-center text-md-left">Vote</a>
+        </div>
+    </div>-->
+
 
 
 <div class="container">

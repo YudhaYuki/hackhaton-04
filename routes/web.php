@@ -19,7 +19,7 @@ Route::get('/', 'indexController@homepage');
 
 Route::get('/polls/list', 'pollController@listPolls');
 
-Route::get('/polls/poll/1', 'pollController@detailPolls');
+Route::get('/polls/poll/{id}', 'pollController@detailPolls');
 
 Route::get('/polls/new', 'pollController@newPoll');
 

@@ -18,9 +18,14 @@ class pollController extends Controller
         return $view;
     }
 
-    public function detailPolls()
+    public function detailPolls($id)
     {
-        return 'Poll Details here';
+        $view = view('polls/polldetail'); //resources/views/ movies/listing .blade.php
+        
+                $poll = Poll::find($id);
+                $view->poll = $poll;
+        
+                return $view;
     }
 
     public function newPoll()
@@ -48,11 +53,11 @@ class pollController extends Controller
 
         //fill it with selected data fro the request
         $poll->fill(request()->only([
-            'name',
-            'description',
+            'name'
+            // 'description',
         ]));
         $poll->name = $poll->name ?: '';
-        $poll->description = $poll->description ?: '';
+        // $poll->description = $poll->description ?: '';
 
         //save the movie
         $poll->save();

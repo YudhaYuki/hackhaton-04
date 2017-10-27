@@ -1,0 +1,9 @@
+.showcase {
+    background-image: url(/assets/polls.jpg);
+    height: 1000px;
+    padding: 130px 0; }
+    .showcase .container {
+      background: #fff;
+      opacity: 1;
+      padding: 40px 30px 40px 30px;
+      margin-top: 2%; }

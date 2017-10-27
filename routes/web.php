@@ -14,3 +14,14 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/', 'indexController@homepage');
+
+Route::get('/polls/list', 'pollController@listPolls');
+
+Route::get('/polls/poll/1', 'pollController@detailPolls');
+
+Route::get('/polls/new', 'pollController@newPoll');
+
+Route::post('/polls/new', 'pollController@store');
+

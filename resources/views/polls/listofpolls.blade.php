@@ -3,7 +3,7 @@
 
 @section('content')
 
-
+<div class="container">
 <ul>
 @foreach($polls as $poll)
 <li>
@@ -13,5 +13,7 @@
 </li>
 @endforeach
 </ul>
+
+</div>
 
 @endsection

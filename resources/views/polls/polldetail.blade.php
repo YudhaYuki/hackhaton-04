@@ -1,5 +1,7 @@
 @extends('wrapper')
 @section('content')
+
+<div class="container">
 <h1>{{ $poll->name }}</h1>
 <br>
 
@@ -50,5 +52,7 @@
 
 
 </form>
+
+</div>
 @endsection
 
